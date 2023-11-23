@@ -1,1 +1,0 @@
-/home/pkeane/.config/tmux

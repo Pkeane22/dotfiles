@@ -1,1 +1,1 @@
-/home/pkeane/.zshenv
+. "$HOME/.cargo/env"

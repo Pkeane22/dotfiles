@@ -2,5 +2,5 @@
 	path = nvim
 	url = https://github.com/Pkeane22/nvim-setup.git
 [submodule "zsh/ohmyzsh"]
-	path = zsh/ohmyzsh
+	path = zsh/oh-my-zsh
 	url = https://github.com/Pkeane22/ohmyzsh.git

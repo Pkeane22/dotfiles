@@ -111,3 +111,5 @@ source $ZSH/oh-my-zsh.sh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f $ZSH/p10k.zsh ]] || source $ZSH/p10k.zsh
+
+[ -f /.fzf.zsh ] && source ~/.fzf.zsh

@@ -22,3 +22,6 @@
 [submodule "t-smart-tmux-session-manager"]
 	path = tmux/plugins/t-smart-tmux-session-manager
 	url = https://github.com/joshmedeski/t-smart-tmux-session-manager.git
+[submodule ".fzf"]
+	path = .fzf
+	url = https://github.com/junegunn/fzf.git

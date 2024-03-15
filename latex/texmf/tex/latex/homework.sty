@@ -1,0 +1,45 @@
+% \documentclass[12pt]{amsart}
+\RequirePackage{math}
+\RequirePackage{enumitem}
+\RequirePackage[skip=2px]{parskip}
+
+\pagestyle{empty}
+\thispagestyle{empty}
+\setlength{\textwidth}{5.9in}
+\setlength{\textheight}{9in}
+\setlength{\oddsidemargin}{0.1in}
+\setlength{\evensidemargin}{0.1in}
+\setlength{\topmargin}{-0.5in}
+
+% Uncomment to make sections able to go over to the next page instead of
+% forcing it to be on one page
+% \raggedbottom
+% \allowdisplaybreaks
+
+\newenvironment{multipart}{
+    \begin{itemize}
+    \setlength\itemsep{4px}
+    }
+    {\end{itemize}}
+
+\newenvironment{answer}{
+    \begin{itemize}[leftmargin=1em,label=\textbf{--}]
+    \setlength\itemsep{0px}
+    \item
+    }
+    {\end{itemize}}
+
+\newenvironment{proof_ans}{
+    \begin{answer}
+    \begin{proof}
+    }{
+    \end{proof}
+    \end{answer}}
+
+\makeatletter
+\renewcommand\maketitle{
+\noindent \name \\
+\noindent \class \\
+\noindent HW \hw
+\vspace{4mm}}
+\makeatother

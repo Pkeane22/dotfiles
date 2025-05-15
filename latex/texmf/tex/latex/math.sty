@@ -3,13 +3,33 @@
 \RequirePackage{graphicx}
 
 \newtheorem*{theorem}{Theorem}
+\newtheorem*{lemma}{Lemma}
 \newtheorem*{definition}{Definition}
+\newtheorem*{corollary}{Corollary}
+\newtheorem*{proposition}{Proposition}
+
+\DeclareMathOperator{\ord}{ord}
+\DeclareMathOperator{\End}{End}
+\DeclareMathOperator{\id}{id}
+\DeclareMathOperator{\spans}{span}
+% \DeclareMathOperator{\sup}{sup}
 
 \newcommand{\set}[1]{\left{#1\right}}
 \newcommand{\R}{\mathbb{R}}
 \newcommand{\Z}{\mathbb{Z}}
 \newcommand{\N}{\mathbb{N}}
 \newcommand{\Q}{\mathbb{Q}}
-\newcommand{\F}{\mathcal{F}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\F}{\mathbb{F}}
+\renewcommand{\O}{\varnothing}
+% \newcommand{\F}{\mathcal{F}}
 \newcommand{\fn}[3]{#1 \colon #2 \to #3}
-\newcommand{\C}[2]{\binom{#1}{#2}}
+\newcommand{\im}{\text{im}}
+\renewcommand{\null}{\text{null}}
+
+
+\newenvironment{amatrix}[1]{%
+  \left(\begin{array}{@{}*{#1}{c}|c@{}}
+}{%
+  \end{array}\right)
+}
